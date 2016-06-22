@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934016751D13F75D00F69AE2 /* popView.m in Sources */ = {isa = PBXBuildFile; fileRef = 934016741D13F75D00F69AE2 /* popView.m */; };
+		934016781D13F84A00F69AE2 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = 934016771D13F84A00F69AE2 /* testView.m */; };
+		9340167B1D13F86F00F69AE2 /* test1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9340167A1D13F86F00F69AE2 /* test1View.m */; };
 		936352431D13D5F80053BDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 936352421D13D5F80053BDF6 /* main.m */; };
 		936352461D13D5F80053BDF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 936352451D13D5F80053BDF6 /* AppDelegate.m */; };
 		936352491D13D5F80053BDF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936352481D13D5F80053BDF6 /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		936352511D13D5F80053BDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9363524F1D13D5F80053BDF6 /* LaunchScreen.storyboard */; };
 		9363525C1D13D5F80053BDF6 /* UIButtonCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9363525B1D13D5F80053BDF6 /* UIButtonCategoryTests.m */; };
 		936352671D13D5F80053BDF6 /* UIButtonCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936352661D13D5F80053BDF6 /* UIButtonCategoryUITests.m */; };
+		936352761D13D6210053BDF6 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 936352751D13D6210053BDF6 /* UIButton+countDown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		934016731D13F75D00F69AE2 /* popView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popView.h; sourceTree = "<group>"; };
+		934016741D13F75D00F69AE2 /* popView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popView.m; sourceTree = "<group>"; };
+		934016761D13F84A00F69AE2 /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		934016771D13F84A00F69AE2 /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
+		934016791D13F86F00F69AE2 /* test1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1View.h; sourceTree = "<group>"; };
+		9340167A1D13F86F00F69AE2 /* test1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test1View.m; sourceTree = "<group>"; };
 		9363523E1D13D5F80053BDF6 /* UIButtonCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936352421D13D5F80053BDF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		936352441D13D5F80053BDF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		936352621D13D5F80053BDF6 /* UIButtonCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		936352661D13D5F80053BDF6 /* UIButtonCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonCategoryUITests.m; sourceTree = "<group>"; };
 		936352681D13D5F80053BDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936352741D13D6210053BDF6 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		936352751D13D6210053BDF6 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 			children = (
 				936352441D13D5F80053BDF6 /* AppDelegate.h */,
 				936352451D13D5F80053BDF6 /* AppDelegate.m */,
+				934016731D13F75D00F69AE2 /* popView.h */,
+				934016741D13F75D00F69AE2 /* popView.m */,
+				934016791D13F86F00F69AE2 /* test1View.h */,
+				9340167A1D13F86F00F69AE2 /* test1View.m */,
+				934016761D13F84A00F69AE2 /* testView.h */,
+				934016771D13F84A00F69AE2 /* testView.m */,
 				936352471D13D5F80053BDF6 /* ViewController.h */,
 				936352481D13D5F80053BDF6 /* ViewController.m */,
 				9363524A1D13D5F80053BDF6 /* Main.storyboard */,
@@ -110,6 +128,8 @@
 				9363524F1D13D5F80053BDF6 /* LaunchScreen.storyboard */,
 				936352521D13D5F80053BDF6 /* Info.plist */,
 				936352411D13D5F80053BDF6 /* Supporting Files */,
+				936352741D13D6210053BDF6 /* UIButton+countDown.h */,
+				936352751D13D6210053BDF6 /* UIButton+countDown.m */,
 			);
 			path = UIButtonCategory;
 			sourceTree = "<group>";
@@ -270,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934016781D13F84A00F69AE2 /* testView.m in Sources */,
 				936352491D13D5F80053BDF6 /* ViewController.m in Sources */,
+				936352761D13D6210053BDF6 /* UIButton+countDown.m in Sources */,
+				9340167B1D13F86F00F69AE2 /* test1View.m in Sources */,
+				934016751D13F75D00F69AE2 /* popView.m in Sources */,
 				936352461D13D5F80053BDF6 /* AppDelegate.m in Sources */,
 				936352431D13D5F80053BDF6 /* main.m in Sources */,
 			);
@@ -413,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				INFOPLIST_FILE = UIButtonCategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = global.UIButtonCategory;
@@ -424,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				INFOPLIST_FILE = UIButtonCategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = global.UIButtonCategory;
@@ -496,6 +522,7 @@
 				9363526D1D13D5F80053BDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9363526E1D13D5F80053BDF6 /* Build configuration list for PBXNativeTarget "UIButtonCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				936352701D13D5F80053BDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		936352711D13D5F80053BDF6 /* Build configuration list for PBXNativeTarget "UIButtonCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				936352731D13D5F80053BDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

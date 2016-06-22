@@ -7,15 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+countDown.h"
 
 @interface ViewController ()
+- (IBAction)button:(UIButton *)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *time;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,4 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)button:(UIButton *)sender {
+    [self.time startWithTime:60 title:@"hah"       countDownTitle:@"s" mainColor:[UIColor redColor] countColor:[UIColor greenColor]];
+}
 @end
